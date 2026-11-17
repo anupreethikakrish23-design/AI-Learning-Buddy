@@ -27,3 +27,5 @@ Thumbs.db
 # Generated files
 usage_log.csv
 
+# Personal conversation memory
+data/conversation_memory.json
