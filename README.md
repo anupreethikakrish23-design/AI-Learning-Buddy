@@ -48,25 +48,28 @@ The goal of this project is to create a beginner-friendly AI learning companion 
 
 ## 📂 Project Structure
 
-```text
-AI-Learning-Buddy-2.0/
+```
+AI_Learning_Buddy_2.0/
+│
+├── app/
+├── data/
+├── docs/
 │
 ├── src/
-│   ├── main.py
-│   ├── prompt_manager.py
+│   ├── __init__.py
 │   ├── conversation_memory.py
-│   └── llm_client.py
-│
-├── data/
-│   └── conversation_memory.json
+│   ├── llm_client.py
+│   └── prompt_manager.py
 │
 ├── tests/
+│   ├── __init__.py
 │   └── test_memory.py
 │
 ├── .env.example
 ├── .gitignore
-├── requirements.txt
-└── README.md
+├── main.py
+├── README.md
+└── requirements.txt
 ```
 
 *Note: This is the proposed structure. Actual filenames and folders may vary as development progresses.*
